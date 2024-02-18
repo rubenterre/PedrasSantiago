@@ -7,12 +7,12 @@
 
 @font-face {
     font-family: Montserrat;
-    src: url(/assets/fonts/Montserrat-VariableFont_wght.ttf);
+    src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: Monotype;
-    src: url(/assets/fonts/monotype-corsiva.ttf);
+    src: url(../assets/fonts/monotype-corsiva.ttf);
 }
 
 :root{
@@ -41,7 +41,7 @@ button {
 /* Header */
 
 .header{
-    background: url(/assets/piedras-de-santiago-tradicion-ciudad.jpg);
+    background: url(../assets/piedras-de-santiago-tradicion-ciudad.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -150,22 +150,22 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(/assets/components/intro-sobre-nosotros.webp);
+    background: url(../assets/components/intro-sobre-nosotros.webp);
     background-size: cover;
     background-position: center;
     box-shadow: 10px 10px 15px 3px rgba(0, 0, 0, 0.5);
 }
 
 .cards__card--elaboracion{
-    background: url(/assets/components/intro-elaboracion.webp);
+    background: url(../assets/components/intro-elaboracion.webp);
 }
 
 .cards__card--empresas{
-    background: url(/assets/components/intro-para-empresas.webp);
+    background: url(../assets/components/intro-para-empresas.webp);
 }
 
 .cards__card--eventos{
-    background: url(/assets/components/intro-eventos.webp);
+    background: url(../assets/components/intro-eventos.webp);
 }
 
 .cards__img{
